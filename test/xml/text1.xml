@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+   <mesg:Message xmlns:fb="http://www.fixm.aero/base/4.1"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:fx="http://www.fixm.aero/flight/4.1"
+                 xmlns:mesg="http://www.fixm.aero/messaging/4.1"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 messageDateTime="2018-03-19T00:40:00.000Z"
+                 messageType="PlanningStatus"
+   >
+       <mesg:deliveryResponsibility>
+           <fb:contact>
+               <fb:onlineContact linkage="ZSNJZXZX"/>
+           </fb:contact>
+       </mesg:deliveryResponsibility>
+       <mesg:messageOriginator>
+           <fb:contact>
+               <fb:onlineContact linkage="donghang"/>
+           </fb:contact>
+       </mesg:messageOriginator>
+       <mesg:recipient>
+           <fb:contact>
+               <fb:onlineContact linkage="zhangsan"/>
+           </fb:contact>
+       </mesg:recipient>
+        <mesg:recipient>
+        <fb:contact>
+            <fb:onlineContact linkage="lisi"/>
+        </fb:contact>
+    </mesg:recipient>
+        <mesg:recipient>
+        <fb:contact>
+            <fb:onlineContact linkage="wangwu"/>
+        </fb:contact>
+    </mesg:recipient>
+       <mesg:uniqueMessageIdentifier codeSpace="urn:uuid">2cbff608-447e-414a-8888-32df02beb38d</mesg:uniqueMessageIdentifier>
+
+       <mesg:flight>
+           <fx:desired>
+               <fx:routeTrajectory>
+                   <fx:climbProfile>
+                       <fx:profilePoint time="P0Y0M0DT7H15M0S">
+                           <fx:airspeed uom="KM_H">100</fx:airspeed>
+                           <fx:distance uom="KM">100</fx:distance>
+                           <fx:level>
+                               <fb:flightLevel uom="FL">330.0</fb:flightLevel>
+                           </fx:level>
+                       </fx:profilePoint>
+                   </fx:climbProfile>
+                   <fx:climbSchedule>
+                       <fx:initialSpeed uom="KM_H">100</fx:initialSpeed>
+                       <fx:subsequentSpeed uom="KM_H">100</fx:subsequentSpeed>
+                   </fx:climbSchedule>
+                   <fx:descentProfile>
+                       <fx:profilePoint time="P0Y0M0DT7H15M0S">
+                           <fx:airspeed uom="KM_H">100</fx:airspeed>
+                           <fx:distance uom="KM">100</fx:distance>
+                           <fx:level>
+                               <fb:flightLevel uom="FL">330.0</fb:flightLevel>
+                           </fx:level>
+                       </fx:profilePoint>
+                   </fx:descentProfile>
+                   <fx:descentSchedule>
+                       <fx:initialSpeed uom="KM_H">100</fx:initialSpeed>
+                       <fx:subsequentSpeed uom="KM_H">100</fx:subsequentSpeed>
+                   </fx:descentSchedule>
+                   <fx:element seqNum="0" routeTruncationIndicator="ROUTE_TRUNCATION">
+                       <fx:alongRouteDistance uom="KM">1000</fx:alongRouteDistance>
+                       <fx:enRouteDelay delayReference="x" delayType="ATFM" delayValue="P0Y0M0DT7H15M0S" />
+                       <fx:point4D srsName="urn:ogc:def:crs:EPSG::4326">
+                           <fb:pos>50.01791111111111 8.50206388888889</fb:pos>
+                           <fx:altimeterSetting uom="PA">0</fx:altimeterSetting>
+                           <fx:level>
+                               <fb:flightLevel uom="SM">65.0</fb:flightLevel>
+                           </fx:level>
+                           <fx:metData>
+                               <fx:temperature uom="C">1.1</fx:temperature>
+                               <fx:windDirection uom="DEG">261.0</fx:windDirection>
+                               <fx:windSpeed uom="M_SEC">13.75</fx:windSpeed>
+                           </fx:metData>
+                           <fx:pointProperty propertyType="TOP_OF_CLIMB">
+                               <fx:reference identifier="x" type="x"></fx:reference>
+                           </fx:pointProperty>
+                           <fx:predictedAirspeed uom="KM_H">574.2</fx:predictedAirspeed>
+                           <fx:predictedGroundspeed uom="KM_H">574.2</fx:predictedGroundspeed>
+                           <fx:time>
+                               <fx:relativeTimeFromInitialPredictionPoint>P0Y0M0DT0H1M52S</fx:relativeTimeFromInitialPredictionPoint>
+                           </fx:time>
+                           <fx:verticalRange>
+                               <fb:lowerBound>
+                                   <fb:flightLevel uom="SM">65.0</fb:flightLevel>
+                               </fb:lowerBound>
+                               <fb:upperBound>
+                                   <fb:flightLevel uom="SM">65.0</fb:flightLevel>
+                               </fb:upperBound>
+                           </fx:verticalRange>
+                       </fx:point4D>
+                       <fx:routeChange xsi:type="fx:SpeedChangeType" seqNum="0">
+                           <fx:speed uom="MACH">0.78</fx:speed>
+                       </fx:routeChange>
+                       <fx:routeDesignatorToNextElement>
+                           <fx:routeDesignator>N505A</fx:routeDesignator>
+                       </fx:routeDesignatorToNextElement>
+                   </fx:element>
+                   <fx:routeInformation totalEstimatedElapsedTime="P0Y0M0DT7H15M0S">
+                       <fx:cruisingLevel>
+                           <fb:flightLevel uom="FL">330.0</fb:flightLevel>
+                       </fx:cruisingLevel>
+                       <fx:cruisingSpeed uom="KM_H">454.0</fx:cruisingSpeed>
+                       <fx:estimatedElapsedTime elapsedTime="P0Y0M0DT0H18M0S">
+                           <fx:location>
+                               <fx:region>CZYZ</fx:region>
+                           </fx:location>
+                       </fx:estimatedElapsedTime>
+                   </fx:routeInformation>
+                   <fx:takeoffWeight uom="KG">1000</fx:takeoffWeight>
+               </fx:routeTrajectory>
+           </fx:desired>
+           <fx:gufi codeSpace="urn:uuid">a2e8be28-e1d5-4089-b95a-19976c49990</fx:gufi>
+           <fx:gufiOriginator>
+               <fb:contact>
+                   <fb:onlineContact linkage="ZSNJZXZX"/>
+               </fb:contact>
+           </fx:gufiOriginator>
+       </mesg:flight>
+       <mesg:flightPlanNegotiationStatus>
+           <mesg:filingStatus status="ACCEPTABLE" statusReason="" />
+       </mesg:flightPlanNegotiationStatus>
+       <mesg:flightPlanVersion>
+           <mesg:referenceVersion>
+               <mesg:auFlightPlanVersion>1</mesg:auFlightPlanVersion>
+           </mesg:referenceVersion>
+           <mesg:version>
+               <mesg:auFlightPlanVersion>2</mesg:auFlightPlanVersion>
+           </mesg:version>
+       </mesg:flightPlanVersion>
+   </mesg:Message>

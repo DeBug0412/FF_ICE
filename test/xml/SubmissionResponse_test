@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+   <mesg:Message xmlns:fb="http://www.fixm.aero/base/4.1"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:fx="http://www.fixm.aero/flight/4.1"
+                 xmlns:mesg="http://www.fixm.aero/messaging/4.1"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 messageDateTime="2018-03-19T00:40:00.000Z"
+                 messageType="SubmissionResponse"
+   >
+       <mesg:deliveryResponsibility>
+           <fb:contact>
+               <fb:onlineContact linkage="ZSNJZXZX"/>
+           </fb:contact>
+       </mesg:deliveryResponsibility>
+       <mesg:messageOriginator>
+           <fb:contact>
+               <fb:onlineContact linkage="ZSNJZXZX"/>
+           </fb:contact>
+       </mesg:messageOriginator>
+       <mesg:recipient>
+           <fb:contact>
+               <fb:onlineContact linkage="ZSNJZXZX"/>
+           </fb:contact>
+       </mesg:recipient>
+       <mesg:uniqueMessageIdentifier codeSpace="urn:uuid">2cbff608-447e-414a-9967-32df02beb38d</mesg:uniqueMessageIdentifier>
+
+       <mesg:submissionStatus status="MANUAL" statusReason="ok"/>
+   </mesg:Message>
